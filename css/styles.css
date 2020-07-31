@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat-Light', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Headings */
+
+.section-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Font Awesome */
+
+#features {
+    color: black;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 700; 
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 10%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-text {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+/* Call to Action */
+
+#cta {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Footer */
+
+#footer {
+    color: #66BFBF;
+}
+
+.footer-link {
+    color: black;
+    margin: 20px 10px;
+}
+
+/* CSS Media Query */
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        transform: rotate(0deg);
+        position: static;
+        
+    }
+}
